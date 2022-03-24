@@ -32,8 +32,6 @@ if(!isset($admin_id)){
    
 <?php include 'admin_header.php'; ?>
 
-<!-- admin dashboard section starts  -->
-
 <section class="dashboard">
 
    <h1 class="title">dashboard</h1>
@@ -127,13 +125,6 @@ if(!isset($admin_id)){
    </div>
 
 </section>
-
-<!-- admin dashboard section ends -->
-
-
-
-
-
 
 
 

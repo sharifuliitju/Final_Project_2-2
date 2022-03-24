@@ -139,12 +139,6 @@ if(isset($_POST['order_btn'])){
 
 
 
-
-
-
-
-
-
 <?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->

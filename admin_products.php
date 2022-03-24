@@ -173,11 +173,6 @@ if(isset($_POST['update_product'])){
 </section>
 
 
-
-
-
-
-
 <!-- custom admin js file link  -->
 <script src="js/admin_script.js"></script>
 
