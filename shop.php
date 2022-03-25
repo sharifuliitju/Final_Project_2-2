@@ -16,7 +16,7 @@ if(isset($_POST['add_to_cart'])){
    $product_price = $_POST['product_price'];
    $product_image = $_POST['product_image'];
 
-   $check_cart_numbers = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('query failed');
+   $check_cart_numbers = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('Query failed at card');
 
    if(mysqli_num_rows($check_cart_numbers) > 0){
       $message[] = 'Already added to cart.....!';
