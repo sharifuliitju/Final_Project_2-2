@@ -51,7 +51,7 @@ var swiper = new Swiper(".mySwiper", {
    loop:true,
    centeredSlides: true,
    autoplay: {
-     delay: 1000,
+     delay: 1800,
      disableOnInteraction: false,
    },
    breakpoints: {

@@ -52,7 +52,7 @@ if (isset($_POST['add_to_cart'])) {
 
    <section class="home">
       <div class="content">
-         <h3>Hand Picked Book to your door.</h3>
+         <h3>Reading is to the Mind what Exercise is to the Body</h3>
          <p>Online Book Delivery System.</p>
          <a href="about.php" class="white-btn">discover more</a>
       </div>
